@@ -1,4 +1,7 @@
 package distributedsystems;
+
+import java.io.File;
+
 /**
 Copyright 2017 Universita' degli Studi di Salerno
 
@@ -12,8 +15,16 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+A P2P based Git protocol API.
 */
 
 public interface GitProtocol {
 
+	public boolean createRepository(String _repo_name, File _directory);
+	
+	public boolean addFilesToRepository(String _repo_name, File _directory);
+	
+	public boolean commit(String _repo_name, File _directory);
+	
+	
 }
