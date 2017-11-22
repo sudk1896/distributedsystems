@@ -4,8 +4,7 @@ This is the practical source for the Distributed System class of Computer Scienc
 
 #### Referents
 - Alberto Negro (foundamentals and algorithms).
-- Gennaro Cordasco (P2P).
-- Carmine Spagnuolo (practical).
+- Gennaro Cordasco and  Carmine Spagnuolo (P2P).
 
 ## Projects Design Requirements
 
