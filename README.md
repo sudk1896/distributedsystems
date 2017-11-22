@@ -1,6 +1,6 @@
-# Distributed Systems Class Univerisity of Salerno
+# Distributed Systems Class Univeristy of Salerno
 
-This is the practical source for the Distributed System class of Computer Science @ Univerisity of Salerno of Professor Alberto Negro.
+This is the practical source for the Distributed System class of Computer Science @ Univeristy of Salerno of Professor Alberto Negro.
 
 #### Referents
 - Alberto Negro (foundamentals and algorithms).
