@@ -9,7 +9,7 @@ This is the practical source for the Distributed System class of Computer Scienc
 
 ## Projects Design Requirements
 
-Projects must be developed using Java languages (also, using (Apache Maven)[https://maven.apache.org/] as software project management) and (TomP2P)[https://tomp2p.net/] framework/library.
+Projects must be developed using Java languages (also, using [Apache Maven](https://maven.apache.org/) as software project management) and [TomP2P](https://tomp2p.net/) framework/library.
 TomP2P is a DHT with additional features, such as storing multiple values for a key. Each peer has a table (either disk-based or memory-based) to store its values. A single value can be queried / updated with a secondary key. The underlying communication framework uses Java NIO to handle many concurrent connections.
 
 ## Projects Homework
