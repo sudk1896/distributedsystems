@@ -3,9 +3,9 @@
 This is the practical source for the Distributed System class of Computer Science @ University of Salerno of Professor Alberto Negro.
 
 #### Referents
-- Alberto Negro (foundamentals and algorithms)
-- Gennaro Cordasco (P2P)
-- Carmine Spagnuolo (practical)
+- Alberto Negro (foundamentals and algorithms).
+- Gennaro Cordasco (P2P).
+- Carmine Spagnuolo (practical).
 
 ## Projects Homework
 
