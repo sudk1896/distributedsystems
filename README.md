@@ -19,14 +19,14 @@ Five projects to be developed on a P2P Network:
 ---------------------------------------------------------------------------------------------------
 
 #### Anonymous Chat
-![chat](https://dz9yg0snnohlc.cloudfront.net/pros-and-cons-of-an-anonymous-chat-room-1.jpg)
+![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg)
 
 ---------------------------------------------------------------------------------------------------
 #### Git Protocol
 ![git](https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg)
 ---------------------------------------------------------------------------------------------------
 #### Auction Mechanism
-![chat](http://d2wgy934yj1g1v.cloudfront.net/blog/wp-content/uploads/2016/07/auction_blog.png)
+![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/law-order-online_auction-blackmarket-black_market-website-stolen_good-bmun149_low.jpg)
 
 
 ---------------------------------------------------------------------------------------------------
