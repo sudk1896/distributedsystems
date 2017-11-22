@@ -23,16 +23,16 @@ Five projects to be developed on a P2P Network:
 
 ---------------------------------------------------------------------------------------------------
 #### Git Protocol
-![git](https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg | width=300)
+<img srchttps://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg width="300"/>
 ---------------------------------------------------------------------------------------------------
 #### Auction Mechanism
-![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/law-order-online_auction-blackmarket-black_market-website-stolen_good-bmun149_low.jpg)
+<img srchttps://s3.amazonaws.com/lowres.cartoonstock.com/law-order-online_auction-blackmarket-black_market-website-stolen_good-bmun149_low.jpg width="300"/>
 
 
 ---------------------------------------------------------------------------------------------------
 #### Sudoku Game
-![sudoku](https://qph.ec.quoracdn.net/main-qimg-6ffebac2a0f3b17fd558c6caa21d87b9)
+<img srchttps://qph.ec.quoracdn.net/main-qimg-6ffebac2a0f3b17fd558c6caa21d87b9  width="300"/>
 ---------------------------------------------------------------------------------------------------
 #### Semantich Harmony Social Network
-![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/media-social_media-interests-compatibility-dates-social_networks-jsh120327_low.jpg)
+<img srchttps://s3.amazonaws.com/lowres.cartoonstock.com/media-social_media-interests-compatibility-dates-social_networks-jsh120327_low.jpg  width="300"/>
 ---------------------------------------------------------------------------------------------------
