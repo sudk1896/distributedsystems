@@ -1,4 +1,4 @@
-# Distributed Systems Class Univeristy of Salerno
+# Distributed Systems Class University of Salerno
 
 This is the practical source for the Distributed System class of Computer Science @ University of Salerno of Professor Alberto Negro.
 
@@ -16,6 +16,7 @@ TomP2P is a DHT with additional features, such as storing multiple values for a 
 
 Five projects to be developed on a P2P Network:
 
+- *Publish/Subscribe Protocol* ([example project](https://github.com/spagnuolocarmine/p2ppublishsubscribe))
 - *Anonymous Chat*
 - *Git Protocol*
 - *Auction Mechanism*
