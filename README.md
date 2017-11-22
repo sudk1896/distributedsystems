@@ -17,7 +17,9 @@ Five projects to be developed on a P2P Network:
 - *Sudoku Game*
 - *Semantich Harmony Social Network*
 ---------------------------------------------------------------------------------------------------
+
 #### Anonymous Chat
+![chat](https://dz9yg0snnohlc.cloudfront.net/pros-and-cons-of-an-anonymous-chat-room-1.jpg)
 
 ---------------------------------------------------------------------------------------------------
 #### Git Protocol
