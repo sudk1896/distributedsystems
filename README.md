@@ -19,11 +19,11 @@ Five projects to be developed on a P2P Network:
 ---------------------------------------------------------------------------------------------------
 
 #### Anonymous Chat
-![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg {width=300px})
+![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg | width=300)
 
 ---------------------------------------------------------------------------------------------------
 #### Git Protocol
-![git](https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg {width=300px)
+![git](https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg | width=300)
 ---------------------------------------------------------------------------------------------------
 #### Auction Mechanism
 ![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/law-order-online_auction-blackmarket-black_market-website-stolen_good-bmun149_low.jpg)
