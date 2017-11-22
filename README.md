@@ -16,6 +16,7 @@ Five projects to be developed on a P2P Network:
 - *Auction Mechanism*
 - *Sudoku Game*
 - *Semantich Harmony Social Network*
+
 ---------------------------------------------------------------------------------------------------
 
 #### Anonymous Chat
@@ -27,6 +28,7 @@ Five projects to be developed on a P2P Network:
 #### Git Protocol
 
 <img src= https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg width="300"/>
+
 ---------------------------------------------------------------------------------------------------
 
 #### Auction Mechanism
@@ -39,9 +41,11 @@ Five projects to be developed on a P2P Network:
 #### Sudoku Game
 
 <img src =https://qph.ec.quoracdn.net/main-qimg-6ffebac2a0f3b17fd558c6caa21d87b9  width="300"/>
+
 ---------------------------------------------------------------------------------------------------
 
 #### Semantich Harmony Social Network
 
 <img src= https://s3.amazonaws.com/lowres.cartoonstock.com/media-social_media-interests-compatibility-dates-social_networks-jsh120327_low.jpg  width="300"/>
+
 ---------------------------------------------------------------------------------------------------
