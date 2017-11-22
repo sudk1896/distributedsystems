@@ -19,7 +19,7 @@ Five projects to be developed on a P2P Network:
 ---------------------------------------------------------------------------------------------------
 
 #### Anonymous Chat
-![chat](https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg | width=300)
+<img src=https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg width="300"/>
 
 ---------------------------------------------------------------------------------------------------
 #### Git Protocol
