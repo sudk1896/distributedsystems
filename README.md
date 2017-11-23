@@ -82,31 +82,43 @@ Design and develop an anonymous chat API based on P2P Network. Each peer can sen
 
 &nbsp;
 
-
-
-
 ### Git Protocol
 
 <img align="left" src= https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg width="300"/>
 
 Design and develop the Git protocol distributed versioning control on a P2P network. Each peer can manage its projects (a set of files) using the Git protocol (a minimal version of it). The system allows the users to create a new repository in a specific foleder, adds new files to be traked by the system, apply the changin on the local repository (commit function), push the changin in the network and pull the changing from the network. The git protocol has a lot specific behaviors to manage the conflicts, in this version is only required that if there are some conflicts the systems can download the remote copy and the merge is manually done. As described in the [GitProtocol Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/GitProtocol.java).
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 ### Auction Mechanism
 
-<img src =https://s3.amazonaws.com/lowres.cartoonstock.com/law-order-online_auction-blackmarket-black_market-website-stolen_good-bmun149_low.jpg width="300"/>
+<img align="left"src =https://s3.amazonaws.com/lowres.cartoonstock.com/law-order-online_auction-blackmarket-black_market-website-stolen_good-bmun149_low.jpg width="300"/>
+Design and develop an auction mechanism based on P2P Network. Each peer can sell and buy goods using a Second-Price Auctions (EBay). 
+second-price auction is a non-truthful auction mechanism for multiple items. Each bidder places a bid. The highest bidder gets the first slot, the second-highest, the second slot and so on, but the highest 
+bidder pays the price bid by the second-highest bidder, the second-highest pays the price bid by the third-highest, and so on. The systems allows the users to create new auction (with an ending time, a reserved selling price and a description), checks the status of an auction, and eventually place new bid for an auction.
 
+&nbsp;
 
----------------------------------------------------------------------------------------------------
+&nbsp;
+
+&nbsp;
+
 
 ### Sudoku Game
 
-<img src =https://qph.ec.quoracdn.net/main-qimg-6ffebac2a0f3b17fd558c6caa21d87b9  width="300"/>
+<img align="right" src =https://qph.ec.quoracdn.net/main-qimg-6ffebac2a0f3b17fd558c6caa21d87b9  width="300"/>
 
----------------------------------------------------------------------------------------------------
+
 
 ### Semantich Harmony Social Network
 
-<img src= https://s3.amazonaws.com/lowres.cartoonstock.com/media-social_media-interests-compatibility-dates-social_networks-jsh120327_low.jpg  width="300"/>
+<img align="left" src= https://s3.amazonaws.com/lowres.cartoonstock.com/media-social_media-interests-compatibility-dates-social_networks-jsh120327_low.jpg  width="300"/>
 
----------------------------------------------------------------------------------------------------
+
