@@ -65,7 +65,8 @@ Usign Maven you can add the dependencies to TomP2P in the pom.xml file.
 ### Anonymous Chat
 
 <img align="right" src=https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg width="300"/>
-An anonymous chat API based on P2P Network. Each peer can send messages on public chat room in anonymous way.
+
+Design and develop an anonymous chat API based on P2P Network. Each peer can send messages on public chat room in anonymous way. The system allows the users to create new room, join in a room, leave a room and send a message on a room. As described in the [Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/AnonymousChat.java).
 
 ---------------------------------------------------------------------------------------------------
 
