@@ -20,7 +20,7 @@ The systems collects the profiles of the users, and automatically creates friend
 The users can see its friends over the time.
 */
 
-public interface SemantichHarmonySocialNetwork {
+public interface SemanticHarmonySocialNetwork {
 
 	/**
 	 * Gets the social network users questions.
