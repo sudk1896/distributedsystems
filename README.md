@@ -3,10 +3,10 @@
 This is the practical source for the Distributed System class of Computer Science @ University of Salerno of Professor Alberto Negro.
 
 #### Referents
-- Alberto Negro (foundamentals and algorithms).
-- Gennaro Cordasco and  Carmine Spagnuolo (P2P).
+- Prof. Alberto Negro (Foundamentals and Algorithms for Distributed Systems).
+- Prof. Gennaro Cordasco and Ph.D. Carmine Spagnuolo (Peer-to-Peer Networks).
 
-## Projects Design Requirements
+## Homeworks Solution Design Requirements
 
 Projects must be developed using Java languages (also, using [Apache Maven](https://maven.apache.org/) as software project management) and [TomP2P](https://tomp2p.net/) framework/library.
 TomP2P is a DHT with additional features, such as storing multiple values for a key. Each peer has a table (either disk-based or memory-based) to store its values. A single value can be queried / updated with a secondary key. The underlying communication framework uses Java NIO to handle many concurrent connections.
@@ -86,7 +86,7 @@ Design and develop an anonymous chat API based on P2P Network. Each peer can sen
 
 <img align="left" src= https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg width="300"/>
 
-Design and develop the Git protocol distributed versioning control on a P2P network. Each peer can manage its projects (a set of files) using the Git protocol (a minimal version of it). The system allows the users to create a new repository in a specific foleder, adds new files to be traked by the system, apply the changin on the local repository (commit function), push the changin in the network and pull the changing from the network. The git protocol has a lot specific behaviors to manage the conflicts, in this version is only required that if there are some conflicts the systems can download the remote copy and the merge is manually done. As described in the [GitProtocol Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/GitProtocol.java).
+Design and develop the Git protocol distributed versioning control on a P2P network. Each peer can manage its projects (a set of files) using the Git protocol (a minimal version of it). The system allows the users to create a new repository in a specific foleder, add new files to be traked by the system, apply the changin on the local repository (commit function), push the changin in the network and pull the changing from the network. The git protocol has a lot specific behaviors to manage the conflicts, in this version is only required that if there are some conflicts the systems can download the remote copy and the merge is manually done. As described in the [GitProtocol Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/GitProtocol.java).
 
 &nbsp;
 
@@ -103,7 +103,8 @@ Design and develop the Git protocol distributed versioning control on a P2P netw
 
 Design and develop an auction mechanism based on P2P Network. Each peer can sell and buy goods using a Second-Price Auctions (EBay). 
 second-price auction is a non-truthful auction mechanism for multiple items. Each bidder places a bid. The highest bidder gets the first slot, the second-highest, the second slot and so on, but the highest 
-bidder pays the price bid by the second-highest bidder, the second-highest pays the price bid by the third-highest, and so on. The systems allows the users to create new auction (with an ending time, a reserved selling price and a description), checks the status of an auction, and eventually place new bid for an auction.
+bidder pays the price bid by the second-highest bidder, the second-highest pays the price bid by the third-highest, and so on. The systems allows the users to create new auction (with an ending time, a reserved selling price and a description), check the status of an auction, and eventually place new bid for an auction. As described in the [AuctionMechanism Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/AuctionMechanism.java).
+
 
 &nbsp;
 
@@ -116,7 +117,8 @@ bidder pays the price bid by the second-highest bidder, the second-highest pays 
 
 <img align="right" src =https://qph.ec.quoracdn.net/main-qimg-6ffebac2a0f3b17fd558c6caa21d87b9  width="300"/>
 
-
+Design and develop a Sudoku challege games on a P2P network. Each user can place a number of the sudoku game, if it is not already placed takes 1 point, if it is already placed and it is rights takes 0 point, in other case receive -1 point. The games is based on 9 x 9 matrix. All users that play to a game are automatically informed when a users increment its score, and when
+the game is finished. The systems allows the users to generate (automatically) a new Sudoku challange identified by a name, join in a challage using a nickname, get the integer matrix describing the Sudoku challange, and place a solution number. As described in the [SudokuGame Java API(https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/SudokuGame.java).
 
 ### Semantich Harmony Social Network
 
