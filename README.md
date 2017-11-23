@@ -66,7 +66,7 @@ Usign Maven you can add the dependencies to TomP2P in the pom.xml file.
 
 <img align="right" src=https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg width="300"/>
 
-Design and develop an anonymous chat API based on P2P Network. Each peer can send messages on public chat room in anonymous way. The system allows the users to create new room, join in a room, leave a room and send a message on a room. As described in the [Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/AnonymousChat.java).
+Design and develop an anonymous chat API based on P2P Network. Each peer can send messages on public chat room in anonymous way. The system allows the users to create new room, join in a room, leave a room and send a message on a room. As described in the [AnonymousChat Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/AnonymousChat.java).
 
 &nbsp;
 
@@ -83,13 +83,14 @@ Design and develop an anonymous chat API based on P2P Network. Each peer can sen
 &nbsp;
 
 
----------------------------------------------------------------------------------------------------
+
 
 ### Git Protocol
 
-<img src= https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg width="300"/>
+<img align="left" src= https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg width="300"/>
 
----------------------------------------------------------------------------------------------------
+Design and develop the Git protocol distributed versioning control on a P2P network. Each peer can manage its projects (a set of files) using the Git protocol (a minimal version of it). The system allows the users to create a new repository in a specific foleder, adds new files to be traked by the system, apply the changin on the local repository (commit function), push the changin in the network and pull the changing from the network. The git protocol has a lot specific behaviors to manage the conflicts, in this version is only required that if there are some conflicts the systems can download the remote copy and the merge is manually done. As described in the [GitProtocol Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/GitProtocol.java).
+
 
 ### Auction Mechanism
 
