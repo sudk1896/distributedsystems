@@ -11,7 +11,16 @@ This is the practical source for the Distributed System class of Computer Scienc
 Projects must be developed using Java languages (also, using [Apache Maven](https://maven.apache.org/) as software project management) and [TomP2P](https://tomp2p.net/) framework/library.
 TomP2P is a DHT with additional features, such as storing multiple values for a key. Each peer has a table (either disk-based or memory-based) to store its values. A single value can be queried / updated with a secondary key. The underlying communication framework uses Java NIO to handle many concurrent connections.
 
-## Projects Homework
+## Homeworks Prerequisites
+
+- Concurrent and Object-oriented programming fundamental (Threads and Observer pattern are required).
+- Distributed System foundamental (Distributed Hash Tables, DHT is required).
+- Java 7 or greater.
+- Apache Maven.
+- Eclipse (optional).
+
+
+## Homeworks
 
 Five projects to be developed on a P2P Network:
 
@@ -22,7 +31,34 @@ Five projects to be developed on a P2P Network:
 - *Sudoku Game*
 - *Semantich Harmony Social Network*
 
+
+## Homework Submission
+
+Solutions must be a Java Maven project, that implements the problem API, and includes at minimum one test case written using JUnit (unit test case for Java).
+Each group leader should require by mail to cspagnuolo@unisa.it its access on GitHub and can commit in the folder solutions/2017_18/group_leader_surname. Each project must includes a README file, written in markdown, in the root of the project. The README describes the faced project, briefly the solution, the projects members, and eventually test cases. 
+
+#### Dependences 
+
+Usign Maven you can add the dependencies to TomP2P in the pom.xml file. 
+
+```
+<repositories>
+    <repository>
+        <id>tomp2p.net</id>
+         <url>http://tomp2p.net/dev/mvn/</url>
+     </repository>
+</repositories>
+<dependencies>
+   <dependency>
+     <groupId>net.tomp2p</groupId>
+     <artifactId>tomp2p-all</artifactId>
+      <version>5.0-Beta8</version>
+   </dependency>
+</dependencies>
+```
+
 ---------------------------------------------------------------------------------------------------
+## Homeworks Descriptions
 
 ### Anonymous Chat
 
