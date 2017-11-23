@@ -22,6 +22,8 @@ TomP2P is a DHT with additional features, such as storing multiple values for a 
 
 ## Homeworks
 
+For each homework is presented a Java interface API that must be implemented by a solution (the API are available in the folder challenges).
+
 Five projects to be developed on a P2P Network:
 
 - *Publish/Subscribe Protocol* ([example project](https://github.com/spagnuolocarmine/p2ppublishsubscribe))
@@ -35,7 +37,7 @@ Five projects to be developed on a P2P Network:
 ## Homework Submission
 
 Solutions must be a Java Maven project, that implements the problem API, and includes at minimum one test case written using JUnit (unit test case for Java).
-Each group leader should require by mail to cspagnuolo@unisa.it its access on GitHub and can commit in the folder solutions/2017_18/group_leader_surname. Each project must includes a README file, written in markdown, in the root of the project. The README describes the faced project, briefly the solution, the projects members, and eventually test cases. 
+Each group leader should require by mail to cspagnuolo@unisa.it its access on GitHub and can place in the folder solutions/2017_18/group_leader_surname the homework solution. Each project must includes a README file, written in markdown, in the root of the project. The README describes the faced project, briefly the solution, the projects members, and eventually test cases. 
 
 #### Dependences 
 
@@ -62,7 +64,8 @@ Usign Maven you can add the dependencies to TomP2P in the pom.xml file.
 
 ### Anonymous Chat
 
-<img src=https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg width="300"/>
+<img align="right" src=https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg width="300"/>
+An anonymous chat API based on P2P Network. Each peer can send messages on public chat room in anonymous way.
 
 ---------------------------------------------------------------------------------------------------
 
