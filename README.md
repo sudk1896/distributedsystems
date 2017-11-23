@@ -86,10 +86,6 @@ Design and develop an anonymous chat API based on P2P Network. Each peer can sen
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
 ---------------------------------------------------------------------------------------------------
 
 ### Git Protocol
