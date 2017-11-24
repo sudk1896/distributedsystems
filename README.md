@@ -37,7 +37,8 @@ Five projects to be developed on a P2P Network:
 ## Homework Submission
 
 Solutions must be a Java Maven project, that implements the problem API, and includes at minimum one test case written using JUnit (unit test case for Java).
-Each group leader should require by mail to cspagnuolo@unisa.it its access on GitHub and can place in the folder solutions/2017_18/group_leader_surname the homework solution. Each project must include a README file, written in markdown, in the root of the project. The README describes the faced project, briefly the solution, the projects members, and eventually test cases. 
+Each group leader should require by mail to cspagnuolo@unisa.it access on GitHub (in order to add the group as contributors of this project) and can place in the folder solutions/classes/2017/group-leader-surname the homework solution. Each project must include a README file, written in markdown, in the root of the project. The README describes the faced project, briefly the solution, the projects members, and eventually test cases.
+Each team leader must add the homework solution in the correct folder, and have to commit and push the changing whitout chanhing other files or folders of the projects. Each team leader must add the homework solution in the correct folder, and have to commit and push the changing without changing other files or folders of the projects (please be carrefully doing this operation).
 
 #### Dependences 
 
