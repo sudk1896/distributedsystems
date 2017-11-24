@@ -2,6 +2,7 @@
 
 This is coursework of Distributed System class of Computer Science @ University of Salerno of Professor Alberto Negro.
 
+
 #### Referents
 - Prof. Alberto Negro (Foundamentals and Algorithms for Distributed Systems).
 - Prof. Gennaro Cordasco and Ph.D. Carmine Spagnuolo (Peer-to-Peer Networks).
