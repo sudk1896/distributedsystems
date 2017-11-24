@@ -21,19 +21,19 @@ TomP2P is a DHT with additional features, such as storing multiple values for a 
 
 ## Homework Evaluation Criteria
 
-The homework is evaluated on a range of 30 total points. The final score is diveded in four level:
+Homeworks are evaluated on a range of 30 total points. The final score is diveded in four level:
 
-- A [30-28]
-- B [27-25]
-- C [24-22]
-- D [21-18]
+- **A** [30-28]
+- **B** [27-25]
+- **C** [24-22]
+- **D** [21-18]
 
 #### Points
 
-- _Correctness_. 0 to 15 points. Measures the group's commitment to develop a solution that is compliant with the problem requirement (obviously!). But also solution that solve part of the problem can be evaluated, if it is clear that only minor part of the problem are not correctly solved.
-- _Style_. 0 to 10 points. Measures the group's commitment to develop a solution styling it and exploiting all features of TomP2P and Java 7 or greater, paying attention to use arguments of the fundamental part and DHT.
-- _Innovation_. 0 to 5 points. Measures the group's commitment to develop additional features to provide application that are more similar to real ones.
-- _Lateness_. The total score is decreased by 5% each day, until a 40% eight days or more late.
+- **Correctness**. 0 to 15 points. Measures the group's commitment to develop a solution that is compliant with the problem requirement (obviously!). But also solution that solve part of the problem can be evaluated, if it is clear that only minor part of the problem are not correctly solved.
+- **Style**. 0 to 10 points. Measures the group's commitment to develop a solution styling it and exploiting all features of TomP2P and Java 7 or greater, paying attention to use arguments of the fundamental part and DHT.
+- **Innovation**. 0 to 5 points. Measures the group's commitment to develop additional features to provide application that are more similar to real ones.
+- **Lateness**. The total score is decreased by 5% each day, until a 40% eight days or more late.
 
 ## Homeworks
 
