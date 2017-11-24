@@ -30,10 +30,10 @@ The homework is evaluated on a range of 30 total points. The final score is dive
 
 #### Points
 
-- *Correctness*. 0 to 15 points. Measures the group's commitment to develop a solution that is compliant with the problem requirement (obviously!). But also solution that solve part of the problem can be evaluated, if it is clear that only minor part of the problem are not correctly solved.
-- *Style*. 0 to 10 points. Measures the group's commitment to develop a solution styling it and exploiting all features of TomP2P and Java 7 or greater, paying attention to use arguments of the fundamental part and DHT.
-- *Innovation*. 0 to 5 points. Measures the group's commitment to develop additional features to provide application that are more similar to real ones.
-- *Lateness*. The total score is decreased by 5% each day, until a 40% eight days or more late.
+- _Correctness_. 0 to 15 points. Measures the group's commitment to develop a solution that is compliant with the problem requirement (obviously!). But also solution that solve part of the problem can be evaluated, if it is clear that only minor part of the problem are not correctly solved.
+- _Style_. 0 to 10 points. Measures the group's commitment to develop a solution styling it and exploiting all features of TomP2P and Java 7 or greater, paying attention to use arguments of the fundamental part and DHT.
+- _Innovation_. 0 to 5 points. Measures the group's commitment to develop additional features to provide application that are more similar to real ones.
+- _Lateness_. The total score is decreased by 5% each day, until a 40% eight days or more late.
 
 ## Homeworks
 
@@ -51,9 +51,11 @@ Five projects to be developed on a P2P Network:
 
 ## Homework Submission
 
-Solutions must be a Java Maven project, that implements the problem API, and includes at minimum one test case written using JUnit (unit test case for Java).
-Each group leader should require by mail to cspagnuolo@unisa.it access on GitHub (in order to add the group as contributors of this project) and can place in the folder solutions/classes/2017/group-leader-surname the homework solution. Each project must include a README file, written in markdown, in the root of the project. The README describes the faced project, briefly the solution, the projects members, and eventually test cases.
-Each team leader must add the homework solution in the correct folder, and have to commit and push the changing whitout chanhing other files or folders of the projects. Each team leader must add the homework solution in the correct folder, and have to commit and push the changing without changing other files or folders of the projects (please be carrefully doing this operation).
+Each group leader should require by mail to cspagnuolo@unisa.it access on GitHub (in order to add the group as contributors of this project) and can place in the folder solutions/classes/2017/group-leader-surname the homework solution. Team leaders must add the homework solution in the correct folder, and have to commit and push the changing whitout chanhing other files or folders of the projects. Each team leader must add the homework solution in the correct folder, and have to commit and push the changing without changing other files or folders of the projects (please be carrefully doing this operation).
+
+Solutions must be as Java Maven project, that implements the problem API, and includes at minimum one test case written using JUnit (unit test case for Java). Each project must include a README file, written in markdown, in the root of the project. The README describes the faced project, briefly the solution, the projects members, and eventually test cases.
+The testcase must instantiate the Network (with at minimum 4 peers) and simulates all operations described in the problem descricption. Solutions that fails the testcases, or does not test all features, is cosidered NOT CORRECT and is evaluated cosidering that cannot have the maxiumum score.
+
 
 #### Dependences 
 
