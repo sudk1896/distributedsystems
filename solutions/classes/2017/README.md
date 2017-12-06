@@ -1,7 +1,5 @@
 
-# Distributed Systems 2017' class
-
-## Teams
+## Distributed Systems class 2017
 
 ### WE_ARE_NEGAN 
 - Raffaele Donadio <salernitana22@gmail.com> (Team Leader)
