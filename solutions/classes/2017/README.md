@@ -34,3 +34,11 @@
 
 **Homework:** Auction Mechanism
 --------------------------------------------------------------------------------------
+
+### Sezione E
+- Gianluca Landi <gianluca.landi@live.it> (Team Leader>
+- Gabriele Napoli <nap.gab@gmail.com>
+- Fabio Napoli  <fabionapoli34@gmail.com>
+
+**Homework:** Semantic Harmony Social Network
+--------------------------------------------------------------------------------------
