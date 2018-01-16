@@ -8,7 +8,7 @@ Progetta e sviluppa un'API di chat anonima basata su rete P2P.
 Ogni peer può inviare messaggi nella chat room pubblica in modo anonimo. 
 Il sistema consente agli utenti di creare una nuova stanza, unirsi in una stanza, lasciare una stanza e inviare un messaggio in una stanza. Come descritto nell'API Java di AnonymousChat.
 
-##Funzionalità:
+<b>Funzionalità:</b>
 •	Creare una stanza
 
 •	Collegarsi a una stanza
@@ -17,15 +17,15 @@ Il sistema consente agli utenti di creare una nuova stanza, unirsi in una stanza
 
 •	Lasciare una stanza
 
-######•	Lasciare la rete (funzionalità aggiuntiva)
+<b>•	Lasciare la rete (funzionalità aggiuntiva)</b>
 
 
-##Protocollo di base :
+<b>Protocollo di base</b> :
 Data una rete p2p composta da n nodi l’obiettivo è inviare messaggi in anonimato. 
-#####Quando un peer deve inviare un messaggio a un altro peer nella rete, non lo invia direttamente ma lancia una monetina e con il 50% di probabilità invia il messaggio direttamente, con 50% inoltra il messaggio a un altro peer, quest’ultimo lancerà nuovamente una monetina e con 50 % di probabilità verrà inoltrato, con 50% di probabilità invierà direttamente il messaggio al destinatario. Quando un nodo deve inoltrare il messaggio sceglierà in modo casuale un nodo connesso alla stanza. 
+<b>Quando un peer deve inviare un messaggio a un altro peer nella rete, non lo invia direttamente ma lancia una monetina e con il 50% di probabilità invia il messaggio direttamente, con 50% inoltra il messaggio a un altro peer, quest’ultimo lancerà nuovamente una monetina e con 50 % di probabilità verrà inoltrato, con 50% di probabilità invierà direttamente il messaggio al destinatario.</b> Quando un nodo deve inoltrare il messaggio sceglierà in modo casuale un nodo connesso alla stanza. 
 Quindi dati n peer connessi a una stanza, ogni nodo avrà una probabilità 1/n di essere scelto per il compito. Questo processo verrà iterato fin tanto che un peer nella rete non otterrà testa e invierà direttamente il messaggio. 
 
-#####La correttezza del protocollo consiste nell’inviare oltre al messaggio anche il destinatario incapsulando questi dati nell’oggetto Messaggio 
+<b>La correttezza del protocollo consiste nell’inviare oltre al messaggio anche il destinatario incapsulando questi dati nell’oggetto Messaggio </b>
 che avrà al seguente struttura:
 Messaggio: destinatario, messaggio, nome della stanza, time stamp .
 
@@ -34,17 +34,17 @@ Ogni peer avrà una componente sempre in ascolto, nel momento in cui ascolta un 
 
 
 
-##Sviluppi futuri:
+<b>Sviluppi futuri:</b>
 Amplificare il protocollo di base per gestire il caso in cui un nodo della rete si disconnette dalla rete in modo anomalo senza segnalare l'uscita.
 
 
 
-##Requisiti necessari:
+<b>Requisiti necessari:</b>
 <b>Per la compilazione</b> è necessario avere almeno una versione di java 1.8.
 
 <br><b>Per i test</b> è necessario usare almeno tre peer. 
 
-##Testing svolto
+<b>Testing svolto</b>
 L'obiettivo principale del testing condotto dal team era capire se effettivamente tutti i peer collegati a una stanza ricevevano i messaggi.
 <br>Poichè il sistema di comunicazione è asincrono la <b>strategia adottata per il testing è la seguente</b>:
 <br><br>Nel momento in cui un peer riceve un messaggio setta un flag e salva l'ultimo messaggio.
