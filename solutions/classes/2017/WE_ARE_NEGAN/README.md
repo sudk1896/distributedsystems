@@ -9,7 +9,7 @@ Ogni peer può inviare messaggi nella chat room pubblica in modo anonimo.
 Il sistema consente agli utenti di creare una nuova stanza, unirsi in una stanza, lasciare una stanza e inviare un messaggio in una stanza. Come descritto nell'API Java di AnonymousChat.
 
 <b>Funzionalità:</b>
-•	Creare una stanza
+<br>•	Creare una stanza
 
 •	Collegarsi a una stanza
 
@@ -20,7 +20,7 @@ Il sistema consente agli utenti di creare una nuova stanza, unirsi in una stanza
 <b>•	Lasciare la rete (funzionalità aggiuntiva)</b>
 
 
-<b>Protocollo di base</b> :
+<b>Protocollo di base</b> :<br>
 Data una rete p2p composta da n nodi l’obiettivo è inviare messaggi in anonimato. 
 <b>Quando un peer deve inviare un messaggio a un altro peer nella rete, non lo invia direttamente ma lancia una monetina e con il 50% di probabilità invia il messaggio direttamente, con 50% inoltra il messaggio a un altro peer, quest’ultimo lancerà nuovamente una monetina e con 50 % di probabilità verrà inoltrato, con 50% di probabilità invierà direttamente il messaggio al destinatario.</b> Quando un nodo deve inoltrare il messaggio sceglierà in modo casuale un nodo connesso alla stanza. 
 Quindi dati n peer connessi a una stanza, ogni nodo avrà una probabilità 1/n di essere scelto per il compito. Questo processo verrà iterato fin tanto che un peer nella rete non otterrà testa e invierà direttamente il messaggio. 
@@ -39,12 +39,12 @@ Amplificare il protocollo di base per gestire il caso in cui un nodo della rete 
 
 
 
-<b>Requisiti necessari:</b>
-<b>Per la compilazione</b> è necessario avere almeno una versione di java 1.8.
+<b>Requisiti necessari:</b><br>
+<b>Per la compilazione</b> è necessario avere almeno una versione di java 1.8.<br>
 
 <br><b>Per i test</b> è necessario usare almeno tre peer. 
 
-<b>Testing svolto</b>
+<b>Testing svolto</b><br>
 L'obiettivo principale del testing condotto dal team era capire se effettivamente tutti i peer collegati a una stanza ricevevano i messaggi.
 <br>Poichè il sistema di comunicazione è asincrono la <b>strategia adottata per il testing è la seguente</b>:
 <br><br>Nel momento in cui un peer riceve un messaggio setta un flag e salva l'ultimo messaggio.
