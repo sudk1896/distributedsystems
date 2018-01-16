@@ -28,12 +28,12 @@ Oltre a testare il sistema con JUnit abbiamo sviluppato una classe in cui generi
 1. Dalla console digitare git clone https://github.com/antonio94c/SemanticSocialNetwork
 2. Avviare l’applicazione Eclipse
 3. Dal Menù di Eclipse, import->Maven->Existing Maven Projects
-4. Fare clic destro sul progetto appena importato
+~~4. Fare clic destro sul progetto appena importato
 5. Selezionare la voce "Build Path"
 6. Selezionare "add Libraries"
 7. Selezionare "JUnit", cliccare su next
 8. Scegliere la versione 4 di JUnit, infine cliccare su Finish
-9. Dal Menù di Eclipse Run->Run
+9. Dal Menù di Eclipse Run->Run~~
 
 ## Contenuto del pacchetto HarmonySocialNetwork
 * README.md
